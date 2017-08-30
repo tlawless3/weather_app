@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class = "container">
+  <div class = "box">
+  <div class = "header">
+    <h1></h1>
+  </div>
+  <div class = "row">
+  <div class = "temp col-xs-5 col-sm-5 col-md-5">
+    <p><span id= digits></span><span id = "deg">&deg C</span></p>
+  </div>
+  <div class = "col-xs-4 col-sm-4 col-md-4">
+    <div class = "location">
+      <p><span id="city"></span></p>
+    </div>
+    <div class = "weather">
+      <p><span id ="description"></span></p>
+    </div>
+  </div>
+  </div>
+    <div class = "row">
+    <div class= "col-xs-5 col-sm-5 col-md5">
+    <div class = "FCButton">
+      <button id="FButton">&degF</button>/<button id = "CButton">&degC</button>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
+.header{
+  text-align: center;
+  
+}
+.temp{
+  text-align: right;
+  font-size: 180px;
+}
+#deg{
+  font-size: 40px;
+  vertical-align: top;
+  line-height:180px;
+}
+#digits{
+  vertical-align:top;
+}
+.weather{
+  text-align: center;
+  clear: right;
+  font-size: 35px;
+  padding-top: 10px;
+}
+#description{
+  text-align: center;
+  font-size: 44px;
+}
+.location{
+  text-align: center;
+  padding-top: 40px;
+  clear: right;
+  font-size:55px;
+}
+.FCButton{
+  text-align: right;
+  margin-top: -50px;
+  margin-right: 100px;
+  
+}
+#digits{
+  font size
+}
+button{
+  background-color: white;
+  border: none;
+  font-family: inherit;
+}
